@@ -1,0 +1,18 @@
+{
+  "name": "ts_new_project",
+  "version": "1.0.0",
+  "description": "a boilerplate to start a ts project fast",
+  "main": "./build/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/app.ts",
+    "serve": "tsc && node ./dist/app.js"
+  },
+  "author": "abdelrahman146",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.3.4000"
+  }
+}
